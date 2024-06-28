@@ -1,6 +1,6 @@
 # Parse CNAI project list to a structured dataset
 
-The CNAI provides a list of AI and Machine Learning related projects in the Swiss administration. The list is provided as a PDF. With this repo we try to parse the data and create a structured dataset. 
+[CNAI](https://cnai.swiss/) provides a [list of AI and Machine Learning related projects](https://cnai.swiss/dienstleistungen/projektdatenbank/) in the Swiss administration. The list is provided as a PDF. With this repo we try to parse the data and create a structured dataset. 
 
 Steps:
 - Download PDF
@@ -21,3 +21,6 @@ Steps:
 - Open and run notebook.
 
 To preprocess DOCX files you also need to install [pandoc](https://pandoc.org/installing.html). 
+
+## Caveats
+- The data is parsed with an LLM. Therefore, errors («hallucinations») can occur. The results have to be validated.
