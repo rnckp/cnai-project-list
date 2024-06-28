@@ -12,3 +12,12 @@ Steps:
     - Split into projects
     - Send to LLM to extract key information
     - Export to Excel file
+
+## Usage
+- Clone repo
+- Change into repo, create Conda environment: `conda create -n cnai python=3.9`
+- Activate environment: `conda activate cnai`
+- Install libraries: `pip install -r requirements.txt`
+- Open and run notebook.
+
+To preprocess DOCX files you also need to install [pandoc](https://pandoc.org/installing.html). 
